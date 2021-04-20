@@ -1,0 +1,136 @@
+ 
+ <Page name="home">
+    <Navbar title="Lorenzo Rizzolo - istruzioni Covid " large={false} sliding={true}>
+      <NavRight>
+        <img src="static/icons/logo.png" alt="logo" width="40">
+      </NavRight>
+    </Navbar>
+  
+    <Block strong>
+      Raccolta di domande frequenti relative al COVID-19 all'istituto Agnelli.
+    </Block>
+  
+    <!-- lista card-->
+    <!-- faq1-->
+    <Card expandable> 
+      <CardContent padding={false}>
+        <div style="background: url(static/img/covid_temp.jpg) no-repeat center top; background-size: cover; height: 240px"></div>
+        <Link cardClose color="black" class="card-opened-fade-in" style="position: absolute; right: 15px; top: 15px" iconF7="xmark_circle_fill" />
+        <CardHeader style={{height: '60px'}}>Temperatura Corporea?🌡</CardHeader>
+        <div class="card-content-padding">
+          <p>
+          <strong>Se hai più di 37,5° oppure</strong> sintomi di infezione respiratorie acute (febbre, tosse, difficoltà respiratorie, mancanza di olfatto e di gusto…) parlane subito con i genitori e <strong>NON venire a scuola</strong>
+          </p>
+            <Button fill round large cardClose>Chiudi</Button>
+        </div>
+      </CardContent>
+      </Card>
+
+      <!-- faq2-->
+      <Card expandable> 
+      <CardContent padding={false}>
+        <div style="background: url(static/img/covid_mascherina.jpg) no-repeat center top; background-size: cover; height: 240px"></div>
+        <Link cardClose color="black" class="card-opened-fade-in" style="position: absolute; right: 15px; top: 15px" iconF7="xmark_circle_fill" />
+        <CardHeader style={{height: '60px'}}>Come indossare la mascherina?😷</CardHeader>
+        <div class="card-content-padding">
+          <p>
+          <strong>Se hai più di 37,5° oppure</strong> sintomi di infezione respiratorie acute (febbre, tosse, difficoltà respiratorie, mancanza di olfatto e di gusto…) parlane subito con i genitori e <strong>NON venire a scuola</strong>
+          </p>
+            <Button fill round large cardClose>Chiudi</Button>
+        </div>
+      </CardContent>
+      </Card>
+
+      <!-- faq3-->
+      <Card expandable> 
+      <CardContent padding={false}>
+        <div style="background: url(static/img/covid_indicazioni.jpg) no-repeat center top; background-size: cover; height: 240px"></div>
+        <Link cardClose color="black" class="card-opened-fade-in" style="position: absolute; right: 15px; top: 15px" iconF7="xmark_circle_fill" />
+        <CardHeader style={{height: '60px'}}>Ci sono altre indicazioni?📖</CardHeader>
+        <div class="card-content-padding">
+          <p>
+          Segui le indicazioni degli insegnanti e rispetta la segnaletica.
+          </p>
+            <Button fill round large cardClose>Chiudi</Button>
+         </div>
+      </CardContent>
+      </Card>
+
+      <!-- faq4-->
+      <Card expandable>
+      <CardContent padding={false}>
+        <div style="background: url(static/img/covid_distanziamento.jpg) no-repeat center top; background-size: cover; height: 240px"></div>
+        <Link cardClose color="black" class="card-opened-fade-in" style="position: absolute; right: 15px; top: 15px" iconF7="xmark_circle_fill" />
+        <CardHeader style={{height: '60px'}}>Distanziamento?😷</CardHeader>
+        <div class="card-content-padding">
+          <p>
+          <strong>Mantieni sempre la distanza di 1 metro, evita gli assembramenti</strong> (soprattutto in entrata-uscita, durante gli intervalli e gli spostamenti da e per la classe) <strong>e il contatto fisico con i compagni.</strong>
+          </p>
+            <Button fill round large cardClose>Chiudi</Button>
+         </div>
+      </CardContent>
+      </Card>
+
+      <!-- faq5-->
+      <Card expandable>
+      <CardContent padding={false}>
+        <div style="background: url(static/img/covid_mani.jpg) no-repeat center top; background-size: cover; height: 240px"></div>
+        <Link cardClose color="black" class="card-opened-fade-in" style="position: absolute; right: 15px; top: 15px" iconF7="xmark_circle_fill" />
+        <CardHeader style={{height: '60px'}}>Quando e come lavare le mani?🤲</CardHeader>
+        <div class="card-content-padding">
+          <p>
+         <strong>Lava frequentemente le mani</strong> o usa gli appositi dispenser  per tenerle pulite ed evita di toccarti il viso e la mascherina. 
+          </p>
+            <Button fill round large cardClose>Chiudi</Button>
+         </div>
+      </CardContent>
+      </Card>
+
+      <!-- faq6-->
+      <Card expandable>
+      <CardContent padding={false}>
+        <div style="background: url(static/img/covid_outside.jpg) no-repeat center top; background-size: cover; height: 240px"></div>
+        <Link cardClose color="black" class="card-opened-fade-in" style="position: absolute; right: 15px; top: 15px" iconF7="xmark_circle_fill" />
+        <CardHeader style={{height: '60px'}}>Comportamento in pubblico?👫</CardHeader>
+        <div class="card-content-padding">
+          <p>
+         <strong>Sii attento e prudente anche fuori della scuola:</strong> sui mezzi di trasporto o nei locali pubblici, quando fai attività sportiva e sei in compagnia degli amici, in tutte le attività extrascolastiche. Gli effetti di ciò che farai possono risultare gravi per te, per la tua famiglia, per i tuoi nonni e per i tuoi compagni di scuola. 
+          </p>
+            <Button fill round large cardClose>Chiudi</Button>
+         </div>
+      </CardContent>
+      </Card>
+
+      <!-- faq7-->
+      <Card expandable>
+      <CardContent padding={false}>
+        <div style="background: url(static/img/covid_dotazioni.jpg) no-repeat center top; background-size: cover; height: 240px"></div>
+        <Link cardClose color="black" class="card-opened-fade-in" style="position: absolute; right: 15px; top: 15px" iconF7="xmark_circle_fill" />
+        <CardHeader style={{height: '60px'}}>Come ci proteggiamo?😷</CardHeader>
+        <div class="card-content-padding">
+          <p>
+         Ti chiediamo di <strong>venire a scuola con le seguenti dotazioni di tua responsabilità:</strong> la mascherina, un flacone di gel igienizzante, la sacca (da lavare almeno ogni 3 giorni) ed i guanti in lattice per i laboratori.
+          </p>
+            <Button fill round large cardClose>Chiudi</Button>
+         </div>
+      </CardContent>
+      </Card>
+
+
+
+   </Page>
+  
+  <script>
+    import {
+      Page,
+      Navbar,
+      NavRight,
+      Block,
+      BlockTitle,
+      List,
+      ListItem,
+      AccordionContent,
+      Card, CardHeader, CardContent, Link, Button
+    } from 'framework7-svelte';
+  </script>
+  
